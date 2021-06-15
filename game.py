@@ -11,7 +11,6 @@ class AsteroidField:
     def __init__(self):
         self._init_game()
         self.screen = pygame.display.set_mode(self.SIZE)
-        #self.background = (135, 206, 250) # alkuperäinen
         self.background = pygame.image.load("assets/images/nebula1.jpg").convert()
         # Custom events:
         self.ADDCOLL = pygame.USEREVENT + 1
