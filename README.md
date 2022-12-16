@@ -12,4 +12,6 @@ Future updates:
 * Add shooting for asteroids
 * Enemies
 # Installation
-Requires Python 3
+Requires Python 3 and Pygame
+# How to run
+Install latest python3 version and intall pygame with pip. Then run the game from root ".\game.py"
